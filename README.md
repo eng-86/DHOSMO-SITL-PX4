@@ -2,7 +2,7 @@
 A distributed high-order sliding mode observer for actuator fault estimation in a formation of multi-UAVs. It is based on PX4 multi vehicles GAZEBO classic IRIS simulation with ROS1. The ROS version is Melodic running on ubunto 18.04. The reposatory of PX4 has a version of 13.x. The main DHOSMO code is written in Python.
 
 
-(https://www.youtube.com/watch?v=Hc79sDi3f0U "Now in Android: 55")
+(https://youtu.be/Vck6ittf5xs "Demo video)
 
 
 ## PX4 Configuration:
