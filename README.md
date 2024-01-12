@@ -8,7 +8,7 @@ A distributed high-order sliding mode observer for actuator fault estimation in 
 4. Build your PX4 code.
 
 ## ROS Configuration
-1. Create a new message Reconstruction.msg
+1. Create a new ROS packge **vehicle_data**
 2. Build your catkin_ws by following the official [ROS page](http://wiki.ros.org/catkin/Tutorials).
 3. Add to ypur catkin_ws the following:
    * main script file: DHSMO.py
