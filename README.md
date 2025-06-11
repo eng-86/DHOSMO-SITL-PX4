@@ -15,7 +15,7 @@ A distributed high-order sliding mode observer for actuator fault estimation in 
 1. Create a new ROS packge **vehicle_data**
 2. Build your catkin_ws by following the official [ROS page](http://wiki.ros.org/catkin/Tutorials).
 3. Add to your catkin_ws src the following:
-   * main script file: DOHOSMO.py
+   * main script file: DHOSMO.py
    * include script file: include.py
    * ROS bag logger script file: log.py
 
@@ -30,7 +30,7 @@ A distributed high-order sliding mode observer for actuator fault estimation in 
    ```
 2. Navigate to your catkin workspace, and in four different terminals add the following:
    ```
-   python OBCSTC.py 0 # 0 for uav0, repeat for other uavs
+   python DHOSMO.py 0 # 0 for uav0, repeat for other uavs
    ```
 3. You can run log.py script to log your results into a ROS Bag file.
 4. You can run rqt viewer to view online ROS topics amnd messages.
